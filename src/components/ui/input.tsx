@@ -18,8 +18,3 @@ Input.displayName = "Input";
 
 export { Input };
 
-// to change name from onChange to on... and how to do it
-// call back function NOT use call back
-// proc spreading
-// vscode, shadcn 
-// upload to github
