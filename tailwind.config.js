@@ -1,7 +1,12 @@
-// CommonJS style
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
-  theme: { extend: {} },
+  darkMode: 'class', // must be 'class' for toggling themes via class
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
   plugins: [],
-};
+}
